@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 // import FirstComponent from './components/FirstComponent';
 // import CompA, { CompB } from './components/SecondComponent';
 // import MultiElements from './components/MultiElements';
-import SilvaFamily from './components/SilvaFamily';
+// import SilvaFamily from './components/SilvaFamily';
 import Family from './components/Family';
 import Member from './components/Member';
 
@@ -17,7 +17,7 @@ ReactDOM.render(
       <Member name='Mariana' />
     </Family>
 
-    <SilvaFamily />
+    {/* <SilvaFamily /> */}
 
     {/* <MultiElements /> */}
 
