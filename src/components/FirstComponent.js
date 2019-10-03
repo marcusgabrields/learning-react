@@ -1,6 +1,4 @@
 import React from 'react';
 
 
-export default function () {
-  return <h1>First Component</h1>;
-};
+export default () => <h1>First Component (Arrow)</h1>
