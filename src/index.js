@@ -7,13 +7,16 @@ import ReactDOM from 'react-dom';
 // import SilvaFamily from './components/SilvaFamily';
 // import Family from './components/Family';
 // import Member from './components/Member';
-import ComponentWithFunction from './components/ComponentWithFunction';
+// import ComponentWithFunction from './components/ComponentWithFunction';
+import Parent from './components/Parent';
 
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <ComponentWithFunction />
+    <Parent />
+
+    {/* <ComponentWithFunction /> */}
 
     {/* <Family last_name='Pereira'>
       <Member name='Andre' />
