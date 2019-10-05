@@ -9,13 +9,17 @@ import ReactDOM from 'react-dom';
 // import Member from './components/Member';
 // import ComponentWithFunction from './components/ComponentWithFunction';
 // import Parent from './components/Parent';
-import ClassComponent from './components/ClassComponent';
+// import ClassComponent from './components/ClassComponent';
+import Conter from './components/Counter';
+import Counter from './components/Counter';
 
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <ClassComponent value="I'm a class component"/>
+    <Counter number={0} />
+
+    {/* <ClassComponent value="I'm a class component"/> */}
 
     {/* <Parent /> */}
 
