@@ -17,7 +17,7 @@ import Counter from './components/Counter';
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <Counter number={0} />
+    <Counter initialNumber={52} />
 
     {/* <ClassComponent value="I'm a class component"/> */}
 
