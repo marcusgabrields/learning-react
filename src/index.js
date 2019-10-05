@@ -5,17 +5,20 @@ import ReactDOM from 'react-dom';
 // import CompA, { CompB } from './components/SecondComponent';
 // import MultiElements from './components/MultiElements';
 // import SilvaFamily from './components/SilvaFamily';
-import Family from './components/Family';
-import Member from './components/Member';
+// import Family from './components/Family';
+// import Member from './components/Member';
+import ComponentWithFunction from './components/ComponentWithFunction';
 
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <Family last_name='Pereira'>
+    <ComponentWithFunction />
+
+    {/* <Family last_name='Pereira'>
       <Member name='Andre' />
       <Member name='Mariana' />
-    </Family>
+    </Family> */}
 
     {/* <SilvaFamily /> */}
 
