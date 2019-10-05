@@ -10,14 +10,16 @@ import ReactDOM from 'react-dom';
 // import ComponentWithFunction from './components/ComponentWithFunction';
 // import Parent from './components/Parent';
 // import ClassComponent from './components/ClassComponent';
-import Conter from './components/Counter';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+import Hook from './components/Hook';
 
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <Counter initialNumber={52} />
+    <Hook />
+
+    {/* <Counter initialNumber={52} /> */}
 
     {/* <ClassComponent value="I'm a class component"/> */}
 
