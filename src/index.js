@@ -8,13 +8,16 @@ import ReactDOM from 'react-dom';
 // import Family from './components/Family';
 // import Member from './components/Member';
 // import ComponentWithFunction from './components/ComponentWithFunction';
-import Parent from './components/Parent';
+// import Parent from './components/Parent';
+import ClassComponent from './components/ClassComponent';
 
 
 const element = document.getElementById('root');
 ReactDOM.render(
   <div>
-    <Parent />
+    <ClassComponent value="I'm a class component"/>
+
+    {/* <Parent /> */}
 
     {/* <ComponentWithFunction /> */}
 
